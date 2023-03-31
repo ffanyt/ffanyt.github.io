@@ -25,6 +25,20 @@
                 "key":"work-2-1",
                 "label":"ES6笔记",
                 "file":"note_es6.md"
+                
+            }
+        ],
+        "icon":null,
+        "type":"group"
+    },
+    {
+        "key":"work-3",
+        "label":"课程笔记",
+        "children":[
+            {
+                "key":"work-2-1",
+                "label":"CS61B笔记",
+                "file":"CS61B.md"
             }
         ],
         "icon":null,
