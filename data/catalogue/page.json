@@ -4,4 +4,10 @@
         "title":"作品集",
         "file":"work.json"
     }
+    {
+        "key":"honor",
+        "title":"荣誉",
+        "file":"honor.json"
+        
+    }
 ]
