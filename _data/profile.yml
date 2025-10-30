@@ -48,10 +48,8 @@ experience:
   position: Research Intern
   date: Oct. 2024 - present
 
-# awards:
-# - name: Award Name 2
-#   date: 2024
-# - name: Award Name 1 
-#   date: 2021
-# - name: A quick brown fox jumps over the lazy dog and runs away award
-#   date: 2021
+awards:
+- name: Outstanding Student of Harbin Institute of Technology
+  date: 2025
+- name: Huawei Scholarship
+  date: 2024
