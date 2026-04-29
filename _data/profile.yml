@@ -22,8 +22,8 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am a first-year Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by Wangmeng Zuo, Wanli Ouyang and Lei Bai. 
-    I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with Zhenfei Yin and Zhiheng Xi.
+    Hi! I am a first-year Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by Wangmeng Zuo and Lei Bai.
+    I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with Zhiheng Xi.
   </p>
 
 
@@ -32,10 +32,10 @@ portrait_url: /assets/images/photos/me.jpg
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Harbin Institute of Technology & PJLab
+- name: Harbin Institute of Technology & AI Lab
   logo: /assets/images/badges/Harbin_Institute_of_Technology.png
-  position: >- 
-    Ph.D. Student, advised by Prof. Wanli Ouyang, Prof. Wangmeng Zuo and Prof. Lei Bai
+  position: >-
+    Ph.D. Student, advised by Prof. Wangmeng Zuo and Prof. Lei Bai
   date: Sep. 2025 - present
 - name: Harbin Institute of Technology
   logo: /assets/images/badges/Harbin_Institute_of_Technology.png
