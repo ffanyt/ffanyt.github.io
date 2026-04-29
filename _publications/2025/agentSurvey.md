@@ -1,7 +1,7 @@
 ---
 title:          "The landscape of agentic reinforcement learning for llms: A survey"
 date:           2025-9-2 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "preprint"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
