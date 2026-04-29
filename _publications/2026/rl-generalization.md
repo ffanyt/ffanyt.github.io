@@ -5,6 +5,7 @@ selected:       false
 pub:            "preprint"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
 pub_date:       "2026"
+cover:          /assets/images/covers/rl-generalization.png
 abstract: >-
   We investigate whether reinforcement fine-tuning effectively enables LLM agents to generalize across scenarios. Our study examines three dimensions: within-environment generalization across task difficulty, cross-environment transfer to unseen environments, and sequential multi-environment training to assess both transfer and forgetting. Findings reveal that while RFT performs well within familiar environments, it shows weaker transfer to unseen environments, correlating with shifts in semantic priors and observation/action interfaces. Sequential and mixture training approaches demonstrate promise for improving overall generalization while maintaining prior knowledge.
 authors:

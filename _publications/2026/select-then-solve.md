@@ -5,6 +5,7 @@ selected:       false
 pub:            "preprint"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
 pub_date:       "2026"
+cover:          /assets/images/covers/select-then-solve.png
 abstract: >-
   We investigate whether LLM agent improvements come from the model or the reasoning approach. Testing six inference-time paradigms (Direct, CoT, ReAct, Plan-Execute, Reflection, ReCode) across four frontier LLMs and ten benchmarks, we find that reasoning structure helps dramatically on some tasks but hurts on others—no single paradigm consistently excels, but oracle per-task selection outperforms fixed paradigm approaches. We propose an embedding-based router that selects the optimal paradigm for each task, achieving 53.1% accuracy compared to 50.3% for the best fixed approach, recovering up to 37% of the oracle gap. Paradigm selection should be task-specific rather than architecturally fixed.
 authors:
