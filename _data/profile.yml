@@ -22,8 +22,8 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am a first-year Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by Wangmeng Zuo and Lei Bai.
-    I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with Zhiheng Xi.
+    Hi! I am a first-year Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by <a href="https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN" target="_blank">Wangmeng Zuo</a> and <a href="https://scholar.google.com/citations?user=sakOO04AAAAJ&hl=zh-CN" target="_blank">Lei Bai</a>.
+    I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a>.
   </p>
 
 
