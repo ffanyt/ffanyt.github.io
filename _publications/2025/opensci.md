@@ -15,7 +15,7 @@ authors:
   - Yutao Fan*
   - Yizhou Wang*
   - Zhiheng Xi*
-  - Lintao Wang*
+  - Lintao Wang
   - Jianyu Wu
   - Aoran Wang
   - Guanyu Li
