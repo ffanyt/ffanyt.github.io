@@ -6,6 +6,7 @@ pub:            "preprint"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/reading-seeing.webp
+semantic_scholar_id: 9392deb0758a873f6df960e62be57c51f2630822
 abstract: >-
   We identify a critical limitation in current vision-language models: while they excel at "reading what text says," they struggle with understanding "how it looks." We systematically evaluate 15 state-of-the-art VLMs on typography recognition, testing font family, size, style, and color across 26 fonts, four scripts, and three difficulty levels. Findings reveal a striking hierarchy—color recognition performs near-perfectly while font style detection remains universally poor. Model scale does not correlate with improved performance, suggesting the gap stems from training-data omission rather than a capacity ceiling. Fine-tuning on synthetic data improves results substantially, though font style recognition remains resistant, indicating that deeper architectural innovations may be necessary.
 authors:

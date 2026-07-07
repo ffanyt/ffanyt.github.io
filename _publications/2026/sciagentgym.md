@@ -6,6 +6,7 @@ pub:            "International Conference on Machine Learning (ICML)"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Regular</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/sciagentgym.webp
+semantic_scholar_id: 1ba97b1899d59be14213600d0bd8ffff3cf4dbd8
 abstract: >-
   SciAgentGym is an interactive benchmark environment featuring 1,780 domain-specific tools across four natural science disciplines. We introduce SciAgentBench for evaluating agent capabilities and observe that success rates drop sharply from 60.6% to 30.9% as interaction horizons extend, even for leading models. We further propose SciForge, a data synthesis method using dependency graphs to generate training trajectories, enabling our SciAgent-8B model to outperform significantly larger competitors while demonstrating cross-domain transfer.
 authors:

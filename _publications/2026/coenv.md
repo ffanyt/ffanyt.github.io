@@ -6,6 +6,7 @@ pub:            "preprint"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/coenv.webp
+semantic_scholar_id: 297c2a051fd72df90e1fcfadc695806e2fafb9ae
 abstract: >-
   CoEnv addresses coordination challenges in multi-agent robotic systems by introducing a compositional environment that integrates real-world and simulation components. The framework operates through three stages: digitizing physical workspaces, employing language models for action planning, and transferring validated strategies to real robots with collision safeguards. We demonstrate the effectiveness of our approach on complex multi-arm manipulation tasks, proposing a new paradigm for multi-agent embodied AI.
 authors:
