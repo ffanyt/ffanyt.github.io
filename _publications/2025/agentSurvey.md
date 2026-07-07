@@ -2,11 +2,11 @@
 title:          "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey"
 date:           2025-9-2 00:01:00 +0800
 selected:       false
-pub:            "preprint"
+pub:            "Transactions on Machine Learning Research (TMLR)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
-pub_date:       "2025"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Journal</span>'
+pub_date:       "2026"
 semantic_scholar_id: dee782bef90fb0985df0043030fd6837955f3b64
 # dee782bef90fb0985df0043030fd6837955f3b64
 # abstract: >-
@@ -29,6 +29,7 @@ authors:
 - Yutao Fan
 - Zihu Wang
 - Songtao Huang
+- Francisco Piedrahita-Velez
 - Yue Liao
 - Hongru Wang
 - Mengyue Yang
@@ -47,5 +48,6 @@ authors:
 
 links:
   Paper: https://arxiv.org/pdf/2509.02547
+  TMLR: https://openreview.net/forum?id=RY19y2RI1O
   Code: https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers
 ---
