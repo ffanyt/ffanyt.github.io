@@ -1,5 +1,5 @@
 ---
-title:          "The landscape of agentic reinforcement learning for llms: A survey"
+title:          "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey"
 date:           2025-9-2 00:01:00 +0800
 selected:       false
 pub:            "preprint"
@@ -11,7 +11,7 @@ semantic_scholar_id: dee782bef90fb0985df0043030fd6837955f3b64
 # dee782bef90fb0985df0043030fd6837955f3b64
 # abstract: >-
 #   Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/agenticSurvey.png
+cover:          /assets/images/covers/agenticSurvey.webp
 authors: 
 - Guibin Zhang*
 - Hejia Geng*

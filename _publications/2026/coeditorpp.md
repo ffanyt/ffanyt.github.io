@@ -5,7 +5,7 @@ selected:       true
 pub:            "preprint"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
 pub_date:       "2026"
-cover:          /assets/images/covers/coeditorpp.png
+cover:          /assets/images/covers/coeditorpp.webp
 abstract: >-
   CoEditor++ is a training-free framework for instruction-based image editing that decomposes editing into "what to edit" and "how to edit" through two cognitive stages with a reflective self-selection mechanism. Built from publicly available components, CoEditor++ achieves competitive results on SmartEdit and AltBear compared to both open-source and proprietary models including GPT-4o, with particularly strong performance in visual consistency while maintaining instruction-following capabilities. We show the effectiveness of CoEditor++ benefits from its structured cognitive design rather than any specific model component.
 authors:

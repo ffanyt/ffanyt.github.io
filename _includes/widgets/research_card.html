@@ -1,0 +1,20 @@
+{% if site.data.profile.research_areas %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl research-panel">
+    <h6 class="border-bottom border-gray p-3 mb-0 section-heading">
+        <i class="fas fa-compass"></i> Research Focus
+    </h6>
+    <div class="row no-gutters">
+        {% for item in site.data.profile.research_areas %}
+        <div class="col-md-4 research-topic">
+            <div class="research-topic-inner">
+                <div class="research-topic-icon">
+                    <i class="{{ item.icon }}"></i>
+                </div>
+                <h6>{{ item.title }}</h6>
+                <p>{{ item.text }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

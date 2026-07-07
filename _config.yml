@@ -13,28 +13,39 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: Yutao Fan
+description: >-
+  Yutao Fan is a Ph.D. student at Harbin Institute of Technology and a research
+  intern at Shanghai AI Laboratory, working on LLM agents, multimodal reasoning,
+  and reinforcement learning.
+url: "https://ffanyt.github.io"
+author: Yutao Fan
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default og:image for link previews (used by jekyll-seo-tag)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/photos/me.jpg
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 # timezone: Asia/Shanghai
 
 collections:
   - publications
   - news
-  - showcase

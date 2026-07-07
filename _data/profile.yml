@@ -25,6 +25,25 @@ short_bio: >-
     Hi! I am a first-year Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by <a href="https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN" target="_blank">Wangmeng Zuo</a> and <a href="https://scholar.google.com/citations?user=sakOO04AAAAJ&hl=zh-CN" target="_blank">Lei Bai</a>.
     I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a>.
   </p>
+  <p>
+    My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>scientific reasoning</strong>, with a recent focus on reinforcement learning post-training, benchmark construction, and agentic decision making for large models.
+  </p>
+
+profile_highlights:
+- "NeurIPS 2025 poster on large-scale bilingual multimodal reasoning datasets."
+- "ICLR 2025 poster on visual reasoning for ambiguous multimodal instructions."
+- "Current projects span LLM agents, RL post-training, scientific reasoning, and embodied multi-agent collaboration."
+
+research_areas:
+- title: "LLM Agents"
+  icon: "fas fa-robot"
+  text: "Training and evaluating agentic systems that search, plan, collaborate, and adapt across dynamic environments."
+- title: "Multimodal Reasoning"
+  icon: "fas fa-eye"
+  text: "Improving how vision-language models understand ambiguous instructions, typography, and visual context."
+- title: "Scientific Reasoning"
+  icon: "fas fa-flask"
+  text: "Building reliable datasets and evaluation pipelines for knowledge-dense reasoning in large language models."
 
 
 portrait_url: /assets/images/photos/me.jpg
@@ -39,7 +58,7 @@ education:
   date: Sep. 2025 - present
 - name: Harbin Institute of Technology
   logo: /assets/images/badges/Harbin_Institute_of_Technology.png
-  position: Bachelor in Computer Science
+  position: Bachelor in Software Engineering
   date: Sep. 2021 - Jul. 2025
 
 experience:

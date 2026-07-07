@@ -39,4 +39,12 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
+
+    // Assemble the email address on the client to keep it out of the static HTML
+    var emailLink = document.getElementById('email-link');
+    if (emailLink) {
+        var addr = emailLink.getAttribute('data-u') + '@' + emailLink.getAttribute('data-d');
+        emailLink.setAttribute('href', 'mailto:' + addr);
+        emailLink.querySelector('.email-text').textContent = addr;
+    }
 })
