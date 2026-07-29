@@ -2,7 +2,7 @@
 title:          "$N_0$-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation"
 date:           2026-7-26 00:01:00 +0800
 selected:       true
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Tech Report</span> <span class="badge badge-pill badge-publication badge-info">Core Contributor</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">Tech Report</span> <span class="badge badge-pill badge-publication badge-core"><i class="fas fa-star"></i> Core Contributor</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/n0-twam.webp
 cover_video:    /assets/videos/n0-twam-cover.mp4

@@ -3,7 +3,7 @@ title:          "Select-then-Solve: Paradigm Routing as Inference-Time Optimizat
 date:           2026-4-8 00:01:00 +0800
 selected:       false
 pub:            "preprint"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Preprint</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/select-then-solve.webp
 semantic_scholar_id: 6db71f6d4c28327e3451e9e199d4ac7f12cddeee

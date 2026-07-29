@@ -406,6 +406,29 @@ div.lazy {
     color: #1558c0 !important;
 }
 
+/* Publication status semantics: green = accepted venue, amber = technical
+   report, gray = preprint, gradient = contributor role */
+.badge-publication.badge-secondary {
+    background: #eef1f5 !important;
+    color: #59657a !important;
+}
+
+.badge-publication.badge-warning {
+    background: #fdf1de !important;
+    color: #96600f !important;
+}
+
+.badge-publication.badge-core {
+    background: linear-gradient(90deg, var(--color-accent), var(--color-accent-2)) !important;
+    color: #ffffff !important;
+    box-shadow: 0 3px 10px rgba(18, 102, 214, 0.35);
+}
+
+.badge-publication.badge-core i {
+    font-size: 0.68rem;
+    margin-right: 0.12rem;
+}
+
 a.badge-publication.badge-info:hover {
     background: #d8e8ff !important;
     color: #0d3f7a !important;

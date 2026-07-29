@@ -3,7 +3,7 @@ title:          "CoEnv: Driving Embodied Multi-Agent Collaboration via Compositi
 date:           2026-4-7 00:01:00 +0800
 selected:       true
 pub:            "preprint"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Preprint</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/coenv.webp
 semantic_scholar_id: 297c2a051fd72df90e1fcfadc695806e2fafb9ae

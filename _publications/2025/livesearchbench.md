@@ -3,7 +3,7 @@ title:          "LiveSearchBench: An Automatically Constructed Benchmark for Ret
 date:           2025-11-3 00:01:00 +0800
 selected:       false
 pub:            "preprint"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Preprint</span>'
 pub_date:       "2025"
 cover:          /assets/images/covers/livesearchbench.webp
 semantic_scholar_id: 4a21773ef00406f60df625075b654049874251ed

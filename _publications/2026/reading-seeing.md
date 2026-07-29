@@ -3,7 +3,7 @@ title:          "Reading ≠ Seeing: Diagnosing and Closing the Typography Gap i
 date:           2026-3-9 00:01:00 +0800
 selected:       false
 pub:            "preprint"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Preprint</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/reading-seeing.webp
 semantic_scholar_id: 9392deb0758a873f6df960e62be57c51f2630822

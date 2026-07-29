@@ -3,7 +3,7 @@ title:          "CoEditor++: Instruction-based Visual Editing via Cognitive Reas
 date:           2026-1-31 00:01:00 +0800
 selected:       true
 pub:            "preprint"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Preprint</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Preprint</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/coeditorpp.webp
 semantic_scholar_id: aa9db74601d2eaf090128f059c6a59554a2c2111

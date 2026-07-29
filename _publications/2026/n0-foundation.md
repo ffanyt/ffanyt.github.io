@@ -3,7 +3,7 @@ title:          "$N_0$-Foundation: Towards the Age of Tactile Intelligence"
 date:           2026-7-26 00:03:00 +0800
 selected:       true
 pub_post:       'arXiv coming soon.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Tech Report</span> <span class="badge badge-pill badge-publication badge-info">Core Contributor</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">Tech Report</span> <span class="badge badge-pill badge-publication badge-core"><i class="fas fa-star"></i> Core Contributor</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/n0-foundation.webp
 cover_video:    /assets/videos/n0-foundation-cover.mp4
