@@ -4,8 +4,9 @@
         <i class="fas fa-compass"></i> Research Focus
     </h6>
     <div class="row no-gutters">
+        {% assign n_areas = site.data.profile.research_areas | size %}
         {% for item in site.data.profile.research_areas %}
-        <div class="col-md-4 research-topic">
+        <div class="{% if n_areas == 4 %}col-md-6 col-xl-3 research-topic research-topic-quad{% else %}col-md-4 research-topic{% endif %}">
             <div class="research-topic-inner">
                 <div class="research-topic-icon">
                     <i class="{{ item.icon }}"></i>

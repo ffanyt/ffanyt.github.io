@@ -47,4 +47,38 @@ $(function () {
         emailLink.setAttribute('href', 'mailto:' + addr);
         emailLink.querySelector('.email-text').textContent = addr;
     }
+
+    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Pause autoplaying cover videos for users who prefer reduced motion
+    if (reducedMotion) {
+        document.querySelectorAll('video[autoplay]').forEach(function (v) {
+            v.removeAttribute('autoplay');
+            v.pause();
+        });
+    }
+
+    // Scroll reveal: fade cards in as they enter the viewport
+    if (!reducedMotion && 'IntersectionObserver' in window) {
+        var revealEls = document.querySelectorAll('.bg-white.shadow-sm, .publication-item > .row, .publication-mobile-item, .research-topic');
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal-visible');
+                    io.unobserve(entry.target);
+                }
+            });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+        revealEls.forEach(function (el) {
+            el.classList.add('reveal');
+            io.observe(el);
+        });
+        // Stagger sibling rows inside each panel for a cascading entrance
+        document.querySelectorAll('.bg-white.shadow-sm').forEach(function (panel) {
+            var rows = panel.querySelectorAll('.publication-item > .row, .publication-mobile-item, .research-topic');
+            rows.forEach(function (row, i) {
+                row.style.transitionDelay = Math.min(i * 60, 240) + 'ms';
+            });
+        });
+    }
 })

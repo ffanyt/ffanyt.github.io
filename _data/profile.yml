@@ -26,13 +26,13 @@ short_bio: >-
     I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a>.
   </p>
   <p>
-    My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>scientific reasoning</strong>, with a recent focus on reinforcement learning post-training, benchmark construction, and agentic decision making for large models.
+    My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>embodied manipulation</strong>, with a recent focus on reinforcement learning post-training and foundation models for embodied agents.
   </p>
 
 profile_highlights:
-- "NeurIPS 2025 poster on large-scale bilingual multimodal reasoning datasets."
-- "ICLR 2025 poster on visual reasoning for ambiguous multimodal instructions."
-- "Current projects span LLM agents, RL post-training, scientific reasoning, and embodied multi-agent collaboration."
+- "Publications at NeurIPS 2025, ICLR 2025, ICML 2026, ACL 2026 (Oral), and TMLR."
+- "Research spans LLM agents, RL post-training, multimodal reasoning, and embodied foundation models."
+- "Building large-scale datasets and benchmarks for multimodal and scientific reasoning."
 
 research_areas:
 - title: "LLM Agents"
@@ -41,9 +41,9 @@ research_areas:
 - title: "Multimodal Reasoning"
   icon: "fas fa-eye"
   text: "Improving how vision-language models understand ambiguous instructions, typography, and visual context."
-- title: "Scientific Reasoning"
-  icon: "fas fa-flask"
-  text: "Building reliable datasets and evaluation pipelines for knowledge-dense reasoning in large language models."
+- title: "Embodied Manipulation"
+  icon: "fas fa-hand"
+  text: "Foundation models and world models that ground perception, language, and action for embodied agents."
 
 
 portrait_url: /assets/images/photos/me.jpg

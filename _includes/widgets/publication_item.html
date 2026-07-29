@@ -2,7 +2,11 @@
 <div class="d-none d-md-block publication-item {% if include.compact %}publication-item-compact{% endif %}">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
-            {%- if item.cover -%}
+            {%- if item.cover_video -%}
+            <video class="w-100 rounded-sm publication-cover publication-cover-video" autoplay muted loop playsinline preload="metadata" poster="{{ item.cover | relative_url }}" aria-label="{{ item.title }}">
+                <source src="{{ item.cover_video | relative_url }}" type="video/mp4">
+            </video>
+            {%- elsif item.cover -%}
             <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm publication-cover" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
             {%- else -%}
             <svg class="bubble-visual-hash lazy w-100 rounded-sm publication-cover" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
@@ -38,7 +42,11 @@
 
 <div class="d-md-none publication-mobile-item {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %} {% if include.compact %}publication-item-compact{% endif %}">
     <div class="py-3 px-4">
-        {% if item.cover %}
+        {% if item.cover_video %}
+        <video class="w-100 rounded-sm publication-mobile-cover publication-cover-video" autoplay muted loop playsinline preload="metadata" poster="{{ item.cover | relative_url }}" aria-label="{{ item.title }}">
+            <source src="{{ item.cover_video | relative_url }}" type="video/mp4">
+        </video>
+        {% elsif item.cover %}
         <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm publication-mobile-cover" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
         {% endif %}
         <div>
