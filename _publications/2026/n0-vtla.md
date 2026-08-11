@@ -12,7 +12,7 @@ authors:
   - NeoteAI Team
   - Fudan TEAI Team
 links:
-  Paper: https://arxiv.org/abs/2607.23782
+  Report: https://arxiv.org/abs/2607.23782
   Code: https://github.com/neoteai/N0-VTLA
   Website: https://research.neoteai.com/n0-vtla/
 ---

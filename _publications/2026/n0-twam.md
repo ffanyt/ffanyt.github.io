@@ -12,7 +12,7 @@ authors:
   - NeoteAI Team
   - Fudan TEAI Team
 links:
-  Paper: https://arxiv.org/abs/2607.23783
+  Report: https://arxiv.org/abs/2607.23783
   Code: https://github.com/neoteai/N0-TWAM
   Website: https://research.neoteai.com/n0-twam/
 ---
