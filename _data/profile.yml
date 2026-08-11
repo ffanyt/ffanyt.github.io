@@ -26,12 +26,12 @@ short_bio: >-
     I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a> and <a href="https://iranqin.github.io/" target="_blank">Yiran Qin</a>.
   </p>
   <p>
-    My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>embodied manipulation</strong>, with a recent focus on reinforcement learning post-training and foundation models for embodied agents.
+    My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>embodied manipulation</strong>, with a recent focus on reinforcement learning and foundation models for embodied agents.
   </p>
 
 profile_highlights:
 - "Publications at NeurIPS 2025, ICLR 2025, ICML 2026, ACL 2026 (Oral), and TMLR."
-- "Research spans LLM agents, RL post-training, multimodal reasoning, and embodied foundation models."
+- "Research spans LLM agents, reinforcement learning, multimodal reasoning, and embodied foundation models."
 - "Building large-scale datasets and benchmarks for multimodal and scientific reasoning."
 
 research_areas:
