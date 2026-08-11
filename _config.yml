@@ -33,7 +33,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/photos/me.jpg
+      image: /assets/images/photos/me_new.jpg
 
 # Exclude from processing.
 exclude:
