@@ -21,10 +21,10 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     Hi! I am a Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by <a href="https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN" target="_blank">Wangmeng Zuo</a> and <a href="https://scholar.google.com/citations?user=sakOO04AAAAJ&hl=zh-CN" target="_blank">Lei Bai</a>.
-    Previously, I was a research intern at the Shanghai Artificial Intelligence Laboratory, where I had the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a> and <a href="https://iranqin.github.io/" target="_blank">Yiran Qin</a>.
+    Previously, I was a research intern at the Shanghai Artificial Intelligence Laboratory, where I had the pleasure of working closely with <a href="https://iranqin.github.io/" target="_blank">Yiran Qin</a> and <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a>.
   </p>
   <p>
-    My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>embodied manipulation</strong>, with a recent focus on reinforcement learning and foundation models for embodied agents.
+    My research interests center on <strong>embodied manipulation</strong>, <strong>LLM agents</strong>, and <strong>multimodal reasoning</strong>, with a recent focus on reinforcement learning and foundation models for embodied agents.
   </p>
 
 profile_highlights:
@@ -33,15 +33,15 @@ profile_highlights:
 - "Building large-scale datasets and benchmarks for multimodal and scientific reasoning."
 
 research_areas:
+- title: "Embodied Manipulation"
+  icon: "fas fa-hand"
+  text: "Foundation models and world models that ground perception, language, and action for embodied agents."
 - title: "LLM Agents"
   icon: "fas fa-robot"
   text: "Training and evaluating agentic systems that search, plan, collaborate, and adapt across dynamic environments."
 - title: "Multimodal Reasoning"
   icon: "fas fa-eye"
   text: "Improving how vision-language models understand ambiguous instructions, typography, and visual context."
-- title: "Embodied Manipulation"
-  icon: "fas fa-hand"
-  text: "Foundation models and world models that ground perception, language, and action for embodied agents."
 
 
 portrait_url: /assets/images/photos/me_new.jpg?v=2
