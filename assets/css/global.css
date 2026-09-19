@@ -318,6 +318,15 @@ div.lazy {
     margin-bottom: 0.55rem !important;
 }
 
+.experience-fallback-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    color: var(--color-accent);
+    font-size: 0.82rem;
+}
+
 .news-card .media {
     align-items: flex-start;
 }

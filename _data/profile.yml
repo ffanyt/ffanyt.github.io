@@ -5,8 +5,6 @@ navbar_name: "Yutao Fan"
 positions:
 - name: Harbin Institute of Technology
   logo: /assets/images/badges/Harbin_Institute_of_Technology.png
-- name: Shanghai AI Laboratory
-  logo: /assets/images/badges/shanghailab.png
 
 
 email: "fanyutao@stu.hit.edu.cn"
@@ -22,8 +20,8 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am a first-year Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by <a href="https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN" target="_blank">Wangmeng Zuo</a> and <a href="https://scholar.google.com/citations?user=sakOO04AAAAJ&hl=zh-CN" target="_blank">Lei Bai</a>.
-    I am also a joint research intern at the Shanghai Artificial Intelligence Laboratory, where I have the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a> and <a href="https://iranqin.github.io/" target="_blank">Yiran Qin</a>.
+    Hi! I am a Ph.D. student in the School of Computer Science at Harbin Institute of Technology, supervised by <a href="https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN" target="_blank">Wangmeng Zuo</a> and <a href="https://scholar.google.com/citations?user=sakOO04AAAAJ&hl=zh-CN" target="_blank">Lei Bai</a>.
+    Previously, I was a research intern at the Shanghai Artificial Intelligence Laboratory, where I had the pleasure of working closely with <a href="https://scholar.google.com/citations?user=zSVLkqAAAAAJ&hl=zh-CN" target="_blank">Zhiheng Xi</a> and <a href="https://iranqin.github.io/" target="_blank">Yiran Qin</a>.
   </p>
   <p>
     My research interests center on <strong>LLM agents</strong>, <strong>multimodal reasoning</strong>, and <strong>embodied manipulation</strong>, with a recent focus on reinforcement learning and foundation models for embodied agents.
@@ -65,7 +63,10 @@ experience:
 - name: Shanghai AI Laboratory
   logo: /assets/images/badges/shanghailab.png
   position: Research Intern
-  date: Oct. 2024 - present
+  date: Oct. 2024 - Feb. 2026
+- name: Xinzhi
+  position: Research Intern
+  date: Feb. 2026 - Sep. 2026
 
 awards:
 - name: Outstanding Student of Harbin Institute of Technology
