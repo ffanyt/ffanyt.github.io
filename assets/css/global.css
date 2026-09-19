@@ -318,6 +318,18 @@ div.lazy {
     margin-bottom: 0.55rem !important;
 }
 
+.experience-logo {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+    object-fit: contain;
+}
+
+.experience-logo-crop {
+    object-fit: cover;
+    object-position: left center;
+}
+
 .experience-fallback-icon {
     display: inline-flex;
     align-items: center;

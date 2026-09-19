@@ -65,6 +65,8 @@ experience:
   position: Research Intern
   date: Oct. 2024 - Feb. 2026
 - name: Xinzhi
+  logo: /assets/images/badges/xinzhi.svg
+  logo_crop: true
   position: Research Intern
   date: Feb. 2026 - Sep. 2026
 
